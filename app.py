@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello World!"
+    return "Welcome to PRO690 DevOps - Final Project! Migrating to cloud native application through 6R."
 
 if __name__ == '__main__':
     port = os.environ.get('FLASK_PORT') or 8080
